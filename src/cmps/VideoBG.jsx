@@ -44,18 +44,20 @@ const VideoBG = (props) => {
         className="vid-bg video-for-full-width"
         id="vid-bg"
         autoPlay
+        preload="auto"
         playsinline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
         style={{ width: 100 + "%", height: 100 + "%" }}
         key={[stateCurrentVideoIndex + videos[stateCurrentVideoIndex]]}
       >
-        <source src={videos[stateCurrentVideoIndex]}  />
+        <source src={videos[stateCurrentVideoIndex]} />
       </video>
       <video
         className="vid-bg video-for-phone"
         id="vid-bg"
         autoPlay
+        preload="auto"
         playsinline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
