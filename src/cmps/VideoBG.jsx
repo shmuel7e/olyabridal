@@ -45,7 +45,7 @@ const VideoBG = (props) => {
         id="vid-bg"
         autoPlay
         preload="auto"
-        playsinline
+        playsInline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
         style={{ width: 100 + "%", height: 100 + "%" }}
@@ -58,7 +58,7 @@ const VideoBG = (props) => {
         id="vid-bg"
         autoPlay
         preload="auto"
-        playsinline
+        playsInline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
         loop
