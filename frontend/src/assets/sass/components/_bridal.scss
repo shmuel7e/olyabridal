@@ -1,0 +1,124 @@
+.bridal-section-container > img {
+  width: 489px;
+}
+
+.bridal-text {
+  letter-spacing: 0.8;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: right;
+  line-height: 1;
+  padding-top: 28px;
+  @media (max-width: 1300px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 450px) {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+
+.bridal-text-addition {
+  letter-spacing: 0.8;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: right;
+  line-height: 1;
+  @media (max-width: 1300px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 450px) {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+
+.bridal-section-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
+}
+
+.bridal-section-header {
+  text-align: right;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 4.7rem;
+  @media (max-width: 1300px) {
+    margin-top: 35px;
+    padding-left: initial !important;
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+  @media (max-width: 450px) {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
+
+.card-container {
+  width: 100%;
+  height: 712px;
+  background-image: radial-gradient(
+    50% 46%,
+    transparent 28%,
+    transparent 0,
+    #000 99%
+  );
+  @media (max-width: 450px) {
+    height: initial;
+    background: black;
+  }
+}
+
+.birdal-section {
+  width: 100%;
+}
+
+.bridal-button {
+  margin-left: 76%;
+  font-family: Khand;
+  color: #fff;
+  outline: none;
+  background: none;
+  width: 450px;
+  border: none;
+  text-align: right;
+  display: block;
+  font-size: 1.9rem;
+  margin-top: 40px;
+  @media (max-width: 450px) {
+    margin-left: 0;
+  }
+}
+
+.bridal-section {
+  background-image: url("../../images//selection/GCD2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 712px;
+  @media (max-width: 1300px) {
+    padding-top: 0px;
+  }
+  @media (max-width: 450px) {
+    background: none;
+    height: initial;
+  }
+}
+
+.collection-info {
+  margin-top: 138px;
+  margin-left: 93px;
+  margin-right: 226px;
+  @media (max-width: 1300px) {
+    margin: 0;
+  }
+}

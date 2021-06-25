@@ -1,0 +1,34 @@
+.c2020 {
+  padding-top: 75px;
+  @media (max-width: 450px) {
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.c2021 {
+  padding-top: 75px;
+  @media (max-width: 450px) {
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.imageCollectionList {
+  @media (max-width: 1255px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @media (max-width: 860px) {
+    display: block;
+  }
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.container-for-dress {
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.dress {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  position: relative;
+  width:50%;
+  min-width: 500px;
+}
+
+.dress img {
+  width:405px;
+  &:nth-child(1) {
+    position: absolute;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.addition img {
+  width:405px;
+}
