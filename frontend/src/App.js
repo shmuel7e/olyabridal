@@ -16,10 +16,10 @@ export default function App() {
         <Header />
         <SideBar />
         <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/collection" component={Collection} />
-          <Route path="/2020" component={C2020} />
-          <Route path="/2021" component={C2021} />
+          <Route path="./" component={Home} exact />
+          <Route path="./collection" component={Collection} />
+          <Route path="./2020" component={C2020} />
+          <Route path="./2021" component={C2021} />
         </Switch>
       </Router>
     </div>
