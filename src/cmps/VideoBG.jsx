@@ -4,8 +4,12 @@ import unmuteICON from "../assets/images/ICONS/Unmute.svg";
 import arrowdownICON from "../assets/images/ICONS/Arrowdown.svg";
 import bgLogo from "../assets/images/Logos/BgLogo.png";
 
-const videos = ['https://thumbs.gfycat.com/UnfortunateFearlessCrustacean-mobile.mp4'];
-const videoForPhone = ['https://thumbs.gfycat.com/NiftyImpureErmine-mobile.mp4'];
+const videos = [
+  "https://thumbs.gfycat.com/UnfortunateFearlessCrustacean-mobile.mp4",
+];
+const videoForPhone = [
+  "https://thumbs.gfycat.com/NiftyImpureErmine-mobile.mp4",
+];
 
 const VideoBG = (props) => {
   const [stateIsSoundOff] = useState(
@@ -40,6 +44,7 @@ const VideoBG = (props) => {
         className="vid-bg video-for-full-width"
         id="vid-bg"
         autoPlay
+        playsinline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
         style={{ width: 100 + "%", height: 100 + "%" }}
@@ -51,6 +56,7 @@ const VideoBG = (props) => {
         className="vid-bg video-for-phone"
         id="vid-bg"
         autoPlay
+        playsinline
         onEnded={handleNextVideo}
         muted={stateIsSoundOff}
         loop
