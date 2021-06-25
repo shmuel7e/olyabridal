@@ -1,0 +1,116 @@
+.contact-container {
+  width: 100%;
+  padding: 0px 50px 0px 50px;
+  @media (max-width: 1400px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+.contact {
+  padding-top: 145px;
+  position: relative;
+  @media (max-width: 1400px) {
+    padding-top: 0;
+  }
+}
+
+.contact-a {
+  background-color: black;
+  width: 90%;
+  height: 370px;
+  text-align: center;
+  padding: 37px;
+  font-size: 1.7rem;
+  color: white;
+  padding-top: 67px;
+  @media (max-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  @media (max-width: 450px) {
+    width: 100vw !important;
+    font-size: 1.2rem !important;
+    min-width: initial;
+    text-align: center;
+    padding-top: 33px;
+  }
+}
+
+.contact-b {
+  height: 370px;
+  @media (max-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+  }
+  @media (max-width: 450px) {
+    min-width: initial;
+    width: 100vw;
+    height: initial;
+    margin-bottom: -10px;
+  }
+}
+
+.contact-b img {
+  width: 413px;
+  @media (max-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+  }
+  @media (max-width: 450px) {
+    min-width: initial;
+    width: 100vw;
+  }
+}
+
+.contact-header {
+  text-align: center;
+  color: black;
+  font-size: 5rem;
+  line-height: 4.7rem;
+  margin-bottom: 45px;
+  @media (max-width: 1400px) {
+    margin-bottom: 0;
+  }
+  @media (max-width: 450px) {
+    font-size: 1.7rem;
+    background: black;
+    line-height: 1.7rem !important;
+    color: white;
+  }
+}
+
+.contact-btn {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 7px;
+  outline: none;
+  height: 50px;
+  font-size: 1.2rem;
+}
+
+.contact-icons {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  @media (max-width: 450px) {
+    height: 39px;
+    width: 39px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+}
+
+.icons-sticky {
+  margin-top: 20px;
+}

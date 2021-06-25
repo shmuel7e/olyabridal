@@ -1,0 +1,27 @@
+.side-bar {
+  position: fixed;
+  left: 0;
+  top: 40vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @media (max-width: 450px) {
+    top: 60vh;
+  }
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.special-icon {
+  background: black;
+  border-radius: 32px;
+  @media (max-width: 450px) {
+    background: black;
+    border-radius: 22px;
+  }
+}

@@ -1,0 +1,30 @@
+.footer-container {
+  background-color: black;
+  @media (max-width: 450px) {
+    padding: 30px;
+  }
+}
+
+.footer-logo img {
+  width: 400px;
+  height: 160px;
+  margin-top: 10px;
+  @media (max-width: 450px) {
+    width: 237px;
+    height: 100px;
+    padding: 5px;
+  }
+}
+
+.small-dots > div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: 600;
+  @media (max-width: 450px) {
+    display: none;
+  }
+}
