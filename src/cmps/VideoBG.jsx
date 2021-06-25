@@ -50,7 +50,7 @@ const VideoBG = (props) => {
         style={{ width: 100 + "%", height: 100 + "%" }}
         key={[stateCurrentVideoIndex + videos[stateCurrentVideoIndex]]}
       >
-        <source src={videos[stateCurrentVideoIndex]} type="video/mp4" />
+        <source src={videos[stateCurrentVideoIndex]}  />
       </video>
       <video
         className="vid-bg video-for-phone"
@@ -66,7 +66,6 @@ const VideoBG = (props) => {
         <source
           className="video-for-phone"
           src={videoForPhone[stateCurrentVideoIndex]}
-          type="video/mp4"
         />
       </video>
       <div onClick={onToggleBgSound} className={"sound-enable"}>
