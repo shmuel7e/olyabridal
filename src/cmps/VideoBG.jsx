@@ -84,7 +84,7 @@ const VideoBG = (props) => {
       <div>
         <img className="bg-logo" src={bgLogo} alt="" />
       </div>
-      <a href="https://api.whatsapp.com/send?phone=9720508152063">
+      <a href="https://api.whatsapp.com/send?phone=972548233442">
         {" "}
         <button className="videobtn">לקביעת פגישה</button>{" "}
       </a>
