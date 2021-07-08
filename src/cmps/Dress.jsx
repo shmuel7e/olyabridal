@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Spinner from "../assets/animation/spinner.png";
 
 const Dress = ({ dress, dressHover }) => {
   const [stateIsHidden, setStateIsHidden] = useState(false);
