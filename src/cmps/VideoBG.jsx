@@ -3,6 +3,7 @@ import muteICON from "../assets/images/ICONS/Mute.svg";
 import unmuteICON from "../assets/images/ICONS/Unmute.svg";
 import arrowdownICON from "../assets/images/ICONS/Arrowdown.svg";
 import bgLogo from "../assets/images/Logos/BgLogo.png";
+import { useCallback } from "react";
 
 const videos = [
   "https://thumbs.gfycat.com/UnfortunateFearlessCrustacean-mobile.mp4",
@@ -20,15 +21,15 @@ const VideoBG = (props) => {
 
   const [stateCurrentVideoIndex, setStateCurrentVideoIndex] = useState(0);
 
-  const onToggleBgSound = () => {
+  const onToggleBgSound = useCallback(() => {
     let vid = document.getElementById("vid-bg");
     vid.muted = !vid.muted;
     localStorage.setItem("sound", vid.muted);
     let soundState = vid.muted;
     this.setState({ isSoundOff: soundState });
-  };
+  }, []);
 
-  const handleNextVideo = () => {
+  const handleNextVideo = useCallback(() => {
     setStateCurrentVideoIndex((prevState) => {
       if (prevState === videos.length - 1) {
         return 0;
@@ -36,7 +37,7 @@ const VideoBG = (props) => {
         return prevState + 1;
       }
     });
-  };
+  }, []);
 
   return (
     <div className="vid-container">
@@ -92,4 +93,4 @@ const VideoBG = (props) => {
   );
 };
 
-export default VideoBG;
+export default React.memo(VideoBG);

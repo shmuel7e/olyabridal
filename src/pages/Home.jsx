@@ -11,7 +11,7 @@ import Footer from "../cmps/Footer";
 const Home = () => {
   return (
     <div>
-      <VideoBG  />
+      <VideoBG />
       <Selection />
       <Bridal />
       <Evening />
@@ -29,4 +29,4 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = {};
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default React.memo(connect(mapStateToProps, mapDispatchToProps)(Home));

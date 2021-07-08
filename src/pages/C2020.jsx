@@ -17,20 +17,20 @@ import A13 from "../assets/images/2020/A/A13.jpg";
 import A14 from "../assets/images/2020/A/A14.jpg";
 
 const collection2020 = [
-  { dress: A1, dressHover: A1 },
-  { dress: A2, dressHover: A2 },
-  { dress: A3, dressHover: A3 },
-  { dress: A4, dressHover: A4 },
-  { dress: A5, dressHover: A5 },
-  { dress: A6, dressHover: A6 },
-  { dress: A7, dressHover: A7 },
-  { dress: A8, dressHover: A8 },
-  { dress: A9, dressHover: A9 },
-  { dress: A10, dressHover: A10 },
-  { dress: A11, dressHover: A11 },
-  { dress: A12, dressHover: A12 },
-  { dress: A13, dressHover: A13 },
-  { dress: A14, dressHover: A14 },
+  { dress: A1 },
+  { dress: A2 },
+  { dress: A3 },
+  { dress: A4 },
+  { dress: A5 },
+  { dress: A6 },
+  { dress: A7 },
+  { dress: A8 },
+  { dress: A9 },
+  { dress: A10 },
+  { dress: A11 },
+  { dress: A12 },
+  { dress: A13 },
+  { dress: A14 },
 ];
 
 const C2020 = () => {
@@ -49,4 +49,4 @@ const C2020 = () => {
   );
 };
 
-export default C2020;
+export default React.memo(C2020);

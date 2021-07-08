@@ -23,26 +23,26 @@ import J1 from "../assets/images/2021/J/J1.jpg";
 import J2 from "../assets/images/2021/J/J2.jpg";
 
 const collection2021 = [
-  { dress: E1, dressHover: E1 },
-  { dress: A1, dressHover: A1 },
-  { dress: C1, dressHover: C1 },
-  { dress: D1, dressHover: D1 },
-  { dress: I1, dressHover: I1 },
-  { dress: G1, dressHover: G1 },
-  { dress: B1, dressHover: B1 },
-  { dress: H1, dressHover: H1 },
-  { dress: F1, dressHover: F1 },
-  { dress: J1, dressHover: J1 },
-  { dress: E2, dressHover: E2 },
-  { dress: A2, dressHover: A2 },
-  { dress: C2, dressHover: C2 },
-  { dress: D2, dressHover: D2 },
-  { dress: I2, dressHover: I2 },
-  { dress: G2, dressHover: G2 },
-  { dress: B2, dressHover: B2 },
-  { dress: H2, dressHover: H2 },
-  { dress: F2, dressHover: F2 },
-  { dress: J2, dressHover: J2 },
+  { dress: E1 },
+  { dress: A1 },
+  { dress: C1 },
+  { dress: D1 },
+  { dress: I1 },
+  { dress: G1 },
+  { dress: B1 },
+  { dress: H1 },
+  { dress: F1 },
+  { dress: J1 },
+  { dress: E2 },
+  { dress: A2 },
+  { dress: C2 },
+  { dress: D2 },
+  { dress: I2 },
+  { dress: G2 },
+  { dress: B2 },
+  { dress: H2 },
+  { dress: F2 },
+  { dress: J2 },
 ];
 
 const C2021 = () => {
@@ -61,4 +61,4 @@ const C2021 = () => {
   );
 };
 
-export default C2021;
+export default React.memo(C2021);
