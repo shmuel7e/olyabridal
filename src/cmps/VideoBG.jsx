@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import muteICON from "../assets/images/ICONS/Mute.svg";
-import unmuteICON from "../assets/images/ICONS/Unmute.svg";
+// import muteICON from "../assets/images/ICONS/Mute.svg";
+// import unmuteICON from "../assets/images/ICONS/Unmute.svg";
 import arrowdownICON from "../assets/images/ICONS/Arrowdown.svg";
 import bgLogo from "../assets/images/Logos/BgLogo.png";
 import { useCallback } from "react";
@@ -21,13 +21,13 @@ const VideoBG = (props) => {
 
   const [stateCurrentVideoIndex, setStateCurrentVideoIndex] = useState(0);
 
-  const onToggleBgSound = useCallback(() => {
-    let vid = document.getElementById("vid-bg");
-    vid.muted = !vid.muted;
-    localStorage.setItem("sound", vid.muted);
-    let soundState = vid.muted;
-    this.setState({ isSoundOff: soundState });
-  }, []);
+  // const onToggleBgSound = useCallback(() => {
+  //   let vid = document.getElementById("vid-bg");
+  //   vid.muted = !vid.muted;
+  //   localStorage.setItem("sound", vid.muted);
+  //   let soundState = vid.muted;
+  //   this.setState({ isSoundOff: soundState });
+  // }, []);
 
   const handleNextVideo = useCallback(() => {
     setStateCurrentVideoIndex((prevState) => {
@@ -71,22 +71,20 @@ const VideoBG = (props) => {
           src={videoForPhone[stateCurrentVideoIndex]}
         />
       </video>
-      <div onClick={onToggleBgSound} className={"sound-enable"}>
+      {/* <div onClick={onToggleBgSound} className={"sound-enable"}>
         {stateIsSoundOff ? (
           <img src={muteICON} alt=""></img>
         ) : (
           <img src={unmuteICON} alt=""></img>
         )}
-      </div>
+      </div> */}
       <div>
-        {" "}
         <img className="continue" src={arrowdownICON} alt=""></img>
       </div>
       <div>
         <img className="bg-logo" src={bgLogo} alt="" />
       </div>
       <a href="https://api.whatsapp.com/send?phone=972548233442">
-        {" "}
         <button className="videobtn">לקביעת פגישה</button>{" "}
       </a>
     </div>

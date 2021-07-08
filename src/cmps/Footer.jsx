@@ -1,11 +1,12 @@
 import React from "react";
 import Socials from "./Socials";
 import footerLOGO from "../assets/images/Logos/BgLogo.png";
+import LazyImage from "./LazyImage";
 
 const Footer = () => (
   <div className="footer-container flex column align-center">
     <div className="footer-logo">
-      <img src={footerLOGO} alt="" />
+      <LazyImage image={footerLOGO} />
     </div>
     <Socials isSelectionCard={true} />
     <div className="flex small-dots">

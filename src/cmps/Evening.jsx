@@ -1,5 +1,6 @@
 import React from "react";
 import D2 from "../assets/images/Bridal/D/D2.jpg";
+import LazyImage from "./LazyImage";
 
 const Evening = () => (
   <div id="evening" className="evening-section">
@@ -38,7 +39,7 @@ const Evening = () => (
         </button>
       </div>
       <div className="evening-img-section">
-        <img src={D2} alt="" />
+        <LazyImage image={D2} className={"special2"} special={"special"} />
       </div>
     </div>
   </div>

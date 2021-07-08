@@ -1,5 +1,6 @@
 import React from "react";
 import between from "../assets/images/between/between.jpg";
+import LazyImage from "./LazyImage";
 
 const Bridal = () => (
   <div id="bridal" className="bridal-section">
@@ -48,7 +49,7 @@ const Bridal = () => (
       </div>
     </div>
     <div className="between">
-      <img src={between} alt="" />
+      <LazyImage image={between} />
     </div>
   </div>
 );

@@ -1,6 +1,7 @@
 import React from "react";
 import contactDress from "../assets/images/Bridal/contactDress.JPG";
 import Icons from "./Icons";
+import LazyImage from "./LazyImage";
 
 const Contact = () => (
   <div id="contact" className="contact">
@@ -18,7 +19,7 @@ const Contact = () => (
         <Icons />
       </div>
       <div className="contact-b">
-        <img src={contactDress} alt="" />
+        <LazyImage image={contactDress} />
       </div>
     </div>
   </div>
