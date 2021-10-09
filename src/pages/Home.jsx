@@ -13,6 +13,7 @@ const Home = () => {
     <div>
       <VideoBG />
       <Selection />
+      <iframe src="http://www.wedreviews.co.il/reviews/263094?if=1" width="100%" height="480px" allowfullscreen="allowfullscreen"></iframe>
       <Bridal />
       <Evening />
       <Contact />
